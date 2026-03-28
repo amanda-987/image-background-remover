@@ -1,9 +1,7 @@
 name = "image-background-remover"
-main = "src/index.ts"
+pages_build_output_dir = ".next"
 compatibility_date = "2024-01-01"
 
 [vars]
 # Set REMOVE_BG_API_KEY in Cloudflare Dashboard
-# Workers -> Settings -> Variables -> Add variable
-# Key: REMOVE_BG_API_KEY
-# Value: your_remove_bg_api_key
+# Pages -> Settings -> Environment variables
